@@ -1,0 +1,52 @@
+#sunheader{
+    background-color:#92FFBE;
+}
+#login{
+    width:30px;
+    height:30px;
+}
+
+#menu{
+    background: -webkit-linear-gradient(left, #97CAE0 , #84E7AB); /* Safari 5.1 - 6.0 */
+
+    background: -o-linear-gradient(right, #97CAE0 , #84E7AB); /* Opera 11.1 - 12.0 */
+
+    background: -moz-linear-gradient(right, #97CAE0 , #84E7AB); /* Firefox 3.6 - 15 */
+
+    background: linear-gradient(to right, #97CAE0 , #84E7AB);
+}
+
+
+#menu_font>li{
+    background: -webkit-linear-gradient(left, #97CAE0 , #84E7AB); /* Safari 5.1 - 6.0 */
+
+    background: -o-linear-gradient(right, #97CAE0 , #84E7AB); /* Opera 11.1 - 12.0 */
+
+    background: -moz-linear-gradient(right, #97CAE0 , #84E7AB); /* Firefox 3.6 - 15 */
+
+    background: linear-gradient(to right, #97CAE0 , #84E7AB);
+
+    text-align: center;
+}
+
+/*.icon{*/
+    /*font-size: 16px;*/
+    /*text-align: center;*/
+    /*color:#fff;*/
+/*}*/
+
+#menu_font>li>i{
+    font-size: 26px;
+    text-align: center;
+    color:#fff;
+}
+#menu_font>li>.size{
+    font-size: 12px;
+    text-align: center;
+    color:#fff;
+}
+
+
+#header_color>button>i{
+    color:#fff;
+}

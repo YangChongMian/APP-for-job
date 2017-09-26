@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/ionic.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <script src="js/ionic.bundle.js"></script>
+    <script src="js/utilityModule.js"></script>
+    <script src="js/all.js"></script>
+    <title>AnyHelper</title>
+</head>
+<body>
+
+<ion-side-menus>
+    <!-- Center content -->
+    <ion-side-menu-content ng-controller="sideMenu">
+
+
+
+        <div class="ui-view"></div>
+
+
+
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="left" id="menu" style="width:90px">
+        <ul class="list" id="menu_font" >
+            <li class="item" menu-toggle="left">
+                <i class="icon ion-close-round"></i>
+            </li>
+            <li class="item">
+                <i class="icon ion-briefcase"></i>
+                <br/>
+                <i class="size">JOBS</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-music-note"></i>
+                <br/>
+                <i class="size">EVENTS</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-home"></i>
+                <br/>
+                <i class="size">HOUSING</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-android-restaurant"></i>
+                <br/>
+                <i class="size">DINING</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-android-image"></i>
+                <br/>
+                <i class="size">ART</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-ios-basketball"></i>
+                <br/>
+                <i class="size">SPORTS</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-android-bar"></i>
+                <br/>
+                <i class="size">NIGHTLIFE</i>
+            </li>
+            <li class="item">
+                <i class="icon ion-person-stalker"></i>
+                <br/>
+                <i class="size">COMUNITY</i>
+            </li>
+        </ul>
+    </ion-side-menu>
+</ion-side-menus>
+
+
+</body>
+</html>
